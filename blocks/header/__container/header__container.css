@@ -1,0 +1,6 @@
+.header__container {
+	margin: 1px 62px 0 42px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}

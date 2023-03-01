@@ -1,0 +1,7 @@
+.header__icons {
+	display: flex;
+	gap: 15px;
+	position: absolute;
+	bottom: 60px;
+	right: 60px;
+}

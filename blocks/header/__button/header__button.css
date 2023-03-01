@@ -1,0 +1,28 @@
+.header__button {
+	border: none;
+	display: block;
+	margin: 45px auto 0;
+	min-width: 280px;
+  min-height: 60px;
+  background: #F7931E;
+	font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+  z-index: 1;
+	color: #fff;
+	transform: skewX(-30deg);
+}
+
+.header__button::before {
+	content: '';
+	border: 1px solid #FFFFFF;
+  position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: translate(10px, -8px);
+}
