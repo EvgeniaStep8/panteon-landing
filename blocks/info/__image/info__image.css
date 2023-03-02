@@ -1,0 +1,7 @@
+.info__image {
+	width: 100%;
+}
+
+.info__image:last-of-type {
+	transform: translateY(30px);
+}

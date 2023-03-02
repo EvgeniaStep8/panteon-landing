@@ -1,6 +1,6 @@
 .header__icon {
 	max-width: 22px;
-	height: 100%;
+	min-height: 22px;
 	display: block;
 	cursor: pointer;
 }

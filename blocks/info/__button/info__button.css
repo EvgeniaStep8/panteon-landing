@@ -1,0 +1,13 @@
+.info__button {
+	min-width: 280px;
+	min-height: 60px;
+	border: 1px solid #FFFFFF;
+	background-color: transparent;
+	transform: skewX(-30deg);
+	font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	cursor: pointer;
+}

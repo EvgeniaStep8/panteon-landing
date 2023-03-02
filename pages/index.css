@@ -16,3 +16,17 @@
 @import url('../blocks/header/__icons/header__icons.css');
 @import url('../blocks/header/__icon/header__icon.css');
 @import url('../blocks/header/__icon-image/header__icon-image.css');
+@import url('../blocks/header/__arrow/header__arrow.css');
+/* Стили info */
+@import url('../blocks/info/info.css');
+@import url('../blocks/info/__container/info__container.css');
+@import url('../blocks/info/__image/info__image.css');
+@import url('../blocks/info/__column/info__column.css');
+@import url('../blocks/info/__title/info__title.css');
+@import url('../blocks/info/__text/info__text.css');
+@import url('../blocks/info/__button/info__button.css');
+@import url('../blocks/info/__advantages/info__advantages.css');
+/* Стили item */
+@import url('../blocks/item/item.css');
+@import url('../blocks/item/__image/item__image.css');
+@import url('../blocks/item/__text/item__text.css');

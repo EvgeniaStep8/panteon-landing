@@ -1,0 +1,12 @@
+.header__arrow {
+	position: absolute;
+	bottom: 62px;
+  left: 50%;
+	transform: translateX(9px);
+	display: block;
+	min-width: 18px;
+	min-height: 9px;
+	background: url('../../../images/arrow.svg') center no-repeat;
+	background-size: cover;
+	cursor: pointer;
+}
