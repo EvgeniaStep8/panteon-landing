@@ -1,80 +1,174 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mesto">
-  <link rel="stylesheet" href="./pages/index.css">
-</head>
-<body class="page">
-  <header class="header">
-    <div class="header__container">
-      <img src="./images/logo.png"alt="Логотип Пантеон" class="header__logo">
-      <nav class="header__navigation">
-        <a href="#info" class="header__link">О нас</a>
-        <a href="#gallery" class="header__link">Галерея</a>
-        <a href="#subscriptions" class="header__link">Абонементы </a>
-        <a href="#trainers" class="header__link">Тренеры</a>
-        <a href="#contacts" class="header__link">Контакты</a>
-      </nav>
-      <p class="header__number">+7 (496) 416-19-16</p>
-    </div>
-    <h1 class="header__title">Фитнес клуб Пантеон</h1>
-    <p class="header__subtitle">Лучше нас только боги</p>
-    <button class="header__button" type ="button">Получить консультацию</button>
-    <ul class="header__icons list">
-      <li><a href="#" class="header__icon"><img src="./images/instagram_icon.svg" alt="Иконка инстаграм" class="header__icon-image"></a></li>
-      <li><a href="#" class="header__icon"><img src="./images/vk_icon.svg" alt="Иконка Вконтакте" class="header__icon-image"></a></li>
-    </ul>
-    <a class="header__arrow" href="#info"></a>
-  </header>
-  <main class="content">
-    <section class="info" id="info">
-      <div class="info__container">
-        <img src="./images/info_image1.png" alt="Девушка тренируется в зале" class="info__image">
-        <img src="./images/info_image2.png" alt="Штанга в зале" class="info__image">
-        <div class="info__column">
-          <h2 class="info__title">Новый образ жизни</h2>
-          <p class="info__text">Став частью нашей команды, вы сможете изменить привычный ритм жизни и сделать каждый свой день особенным, а формат наших тренировок позволит вам раскрыть потенциал вашего тела на 100%.</p>
-          <button class="info__button" type="button">Получить консультацию</button>
-        </div> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mesto" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <img
+          src="./images/logo.png"
+          alt="Логотип Пантеон"
+          class="header__logo"
+        >
+        <nav class="header__navigation">
+          <a href="#info" class="header__link">О нас</a>
+          <a href="#gallery" class="header__link">Галерея</a>
+          <a href="#subscriptions" class="header__link">Абонементы </a>
+          <a href="#trainers" class="header__link">Тренеры</a>
+          <a href="#contacts" class="header__link">Контакты</a>
+        </nav>
+        <p class="header__number">+7 (496) 416-19-16</p>
       </div>
-      <ul class="info__advantages list">
-        <li class="info__item item">
-          <img src="./images/info_equipment_icon.svg" alt="Иконка велотренажера" class="item__image">
-          <p class="item__text">Полностью укомплектованный зал</p>
+      <h1 class="header__title">Фитнес клуб Пантеон</h1>
+      <p class="header__subtitle">Лучше нас только боги</p>
+      <button class="header__button" type="button">
+        Получить консультацию
+      </button>
+      <ul class="header__icons list">
+        <li>
+          <a href="#" class="header__icon">
+            <img
+              src="./images/instagram_icon.svg"
+              alt="Иконка инстаграм"
+              class="header__icon-image"
+            >
+          </a>
         </li>
-        <li class="info__item item">
-          <img src="./images/info_dumbbells_icon.svg" alt="Иконка гантелей" class="item__image">
-          <p class="item__text">Профессиональное оборудование</p>
-        </li>
-        <li class="info__item item">
-          <img src="./images/info_location_icon.svg" alt="Иконка карта" class="item__image">
-          <p class="item__text">Удобное расположение в центре города</p>
-        </li>
-        <li class="info__item item">
-          <img src="./images/info_wallet_icon.svg" alt="Иконка кошелёк" class="item__image">
-          <p class="item__text">Доступная стоимость занятий</p>
+        <li>
+          <a href="#" class="header__icon">
+            <img
+              src="./images/vk_icon.svg"
+              alt="Иконка Вконтакте"
+              class="header__icon-image"
+            >
+          </a>
         </li>
       </ul>
-    </section>
-    <section class="gallery" id="gallery">
-
-    </section>
-    <section class="subscriptions" id="subscriptions">
-
-    </section>
-    <section class="trainers" id="trainers">
-
-    </section>
-    <section class="questions">
-
-    </section>
-    <section class="contacts" id="contacts">
-
-    </section>
-  </main>
-  <footer class="footer">
-  </footer> 
-</body>
+      <a class="header__arrow" href="#info"></a>
+    </header>
+    <main class="content">
+      <section class="info" id="info">
+        <div class="info__container">
+          <img
+            src="./images/info_image1.png"
+            alt="Девушка тренируется в зале"
+            class="info__image"
+          >
+          <img
+            src="./images/info_image2.png"
+            alt="Штанга в зале"
+            class="info__image"
+          >
+          <div class="info__column">
+            <h2 class="info__title">Новый образ жизни</h2>
+            <p class="info__text">
+              Став частью нашей команды, вы сможете изменить привычный ритм
+              жизни и сделать каждый свой день особенным, а формат наших
+              тренировок позволит вам раскрыть потенциал вашего тела на 100%.
+            </p>
+            <button class="info__button" type="button">
+              Получить консультацию
+            </button>
+          </div>
+        </div>
+        <ul class="info__advantages list">
+          <li class="info__item item">
+            <img
+              src="./images/info_equipment_icon.svg"
+              alt="Иконка велотренажера"
+              class="item__image"
+            >
+            <p class="item__text">Полностью укомплектованный зал</p>
+          </li>
+          <li class="info__item item">
+            <img
+              src="./images/info_dumbbells_icon.svg"
+              alt="Иконка гантелей"
+              class="item__image"
+            >
+            <p class="item__text">Профессиональное оборудование</p>
+          </li>
+          <li class="info__item item">
+            <img
+              src="./images/info_location_icon.svg"
+              alt="Иконка карта"
+              class="item__image"
+            >
+            <p class="item__text">Удобное расположение в центре города</p>
+          </li>
+          <li class="info__item item">
+            <img
+              src="./images/info_wallet_icon.svg"
+              alt="Иконка кошелёк"
+              class="item__image"
+            >
+            <p class="item__text">Доступная стоимость занятий</p>
+          </li>
+        </ul>
+      </section>
+      <section class="gallery" id="gallery"></section>
+      <section class="subscriptions" id="subscriptions"></section>
+      <section class="trainers" id="trainers"></section>
+      <section class="questions"></section>
+      <section class="contacts" id="contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__title">Контакты</h2>
+          <ul class="contacts__info list">
+            <li class="contacts__item">
+              <img
+                src="./images/contact_icon_location.svg"
+                alt="Иконка локация"
+                class="contacts__item-icon"
+              >
+              <p class="contacts__item-text">г. Орехово-Зуево, ул. Ленина 84</p>
+            </li>
+            <li class="contacts__item">
+              <img
+                src="./images/contact_icon_time.svg"
+                alt="Иконка часы"
+                class="contacts__item-icon"
+              >
+              <p class="contacts__item-text">Ежедневно с 8:00 до 23:00</p>
+            </li>
+            <li class="contacts__item">
+              <img
+                src="./images/contact_icon_telephone.svg"
+                alt="Иконка телефон"
+                class="contacts__item-icon"
+              >
+              <p class="contacts__item-text">
+                +7 (496) 416-19-16,<br>+7 (925) 881-21-70
+              </p>
+            </li>
+          </ul>
+          <p class="contacts__text">Подписывайтесь на наши соц.сети</p>
+          <ul class="contacts__icons list">
+            <li>
+              <a href="#">
+                <img
+                  src="./images/contact_icon_instagram.svg"
+                  alt="Иконка инстаграм"
+                  class="contacts__icon"
+                >
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img
+                  src="./images/contact_icon_vk.svg"
+                  alt="Иконка Вконтакте"
+                  class="contacts__icon"
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+  </body>
 </html>

@@ -1,0 +1,5 @@
+.contacts__icons {
+  margin-bottom: 50px;
+	display: flex;
+	gap: 15px;
+}
