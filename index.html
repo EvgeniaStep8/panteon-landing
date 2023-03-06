@@ -113,7 +113,36 @@
       <section class="gallery" id="gallery"></section>
       <section class="subscriptions" id="subscriptions"></section>
       <section class="trainers" id="trainers"></section>
-      <section class="questions"></section>
+
+      <section class="questions">
+        <div class="questions__container">
+          <h2 class="questions__title">Остались вопросы?</h2>
+          <p class="question__subtitle">Оставьте Ваш номер телефона и мы <span class="questions__span-accent">обязательно с Вами свяжемся</span></p>
+          <form 
+            action=""
+            class="questions__form form"
+            id="callBackForm"
+          >
+            <input 
+              type="text" 
+              class="form__input"
+              name= "userName"
+              placeholder="Введите имя"
+              required
+            >
+            <input
+              type="tel"
+              class="form__input"
+              name="userTelephone"
+              placeholder="Введите телефон"
+              required
+            >
+            <button class="form__submit-button" type="submit">Получить консультацию</button>
+          </form>
+          <p class="questions__warning">Нажимая на кнопку вы соглашаетесь с политикой конфиденциальности</p>
+      </div>
+      </section>
+
       <section class="contacts" id="contacts">
         <div class="contacts__container">
           <h2 class="contacts__title">Контакты</h2>

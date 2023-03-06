@@ -31,8 +31,16 @@
 @import url('../blocks/item/__image/item__image.css');
 @import url('../blocks/item/__text/item__text.css');
 
-
-
+/* Стили questions */
+@import url('../blocks/questions/questions.css');
+@import url('../blocks/questions/__container/questions__continer.css');
+@import url('../blocks/questions/__title/questions__title.css');
+@import url('../blocks/questions/__subtitle/questions__subtitle.css');
+@import url('../blocks/questions/__span-accent/questions__span-accent.css');
+@import url('../blocks/questions/__warning/questions__warning.css');
+/* Стили form */
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__submit-button/form__submit-button.css');
 /* Стили contacts */
 @import url('../blocks/contacts/contacts.css');
 @import url('../blocks/contacts/__container/contacts__container.css');

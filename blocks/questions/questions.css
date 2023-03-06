@@ -1,0 +1,7 @@
+.questions {
+  background: url('../../images/questions_overlay.png') center no-repeat;
+  padding-top: 110px;
+  padding-right: 175px;
+  padding-bottom: 110px;
+  box-sizing: border-box;
+}

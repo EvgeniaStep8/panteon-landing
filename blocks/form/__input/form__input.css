@@ -1,0 +1,18 @@
+.form__input {
+  border: 0;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 15px 1px;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  outline-color: #F7931E;
+  margin-bottom: 10px;
+  background: inherit;
+}
+
+.form__input:last-of-type {
+  margin-bottom: 30px;
+}
