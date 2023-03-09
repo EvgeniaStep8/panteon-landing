@@ -30,6 +30,12 @@
 @import url('../blocks/item/item.css');
 @import url('../blocks/item/__image/item__image.css');
 @import url('../blocks/item/__text/item__text.css');
+/* Стили gallery */
+/* Стили subscriptions */
+@import url('../blocks/subscriptions/subscriptions.css');
+@import url('../blocks/subscriptions/__title/subscriptions__title.css');
+@import url('../blocks/subscriptions/__table-title/subscriptions__table-title.css');
+
 
 /* Стили questions */
 @import url('../blocks/questions/questions.css');
