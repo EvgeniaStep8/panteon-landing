@@ -35,7 +35,16 @@
 @import url('../blocks/subscriptions/subscriptions.css');
 @import url('../blocks/subscriptions/__title/subscriptions__title.css');
 @import url('../blocks/subscriptions/__table-title/subscriptions__table-title.css');
-
+@import url('../blocks/subscriptions/__container/subscriptions__container.css');
+/* Стили table */
+@import url('../blocks/table/table.css');
+/* Стили cell */
+@import url('../blocks/cell/cell.css');
+@import url('../blocks/cell/__title/cell__title.css');
+@import url('../blocks/cell/__text/cell__text.css');
+@import url('../blocks/cell/__icon/cell__icon.css');
+@import url('../blocks/cell/__price/cell__price.css');
+@import url('../blocks/cell/__button/cell__button.css');
 
 /* Стили questions */
 @import url('../blocks/questions/questions.css');
