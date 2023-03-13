@@ -1,0 +1,6 @@
+.footer {
+  padding: 50px 60px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}

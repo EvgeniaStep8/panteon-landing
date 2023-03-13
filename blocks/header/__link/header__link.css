@@ -1,7 +1,5 @@
 .header__link {
-	cursor: pointer;
 	color: #fff;
-	text-decoration: none;
 	margin-right: 40px;
 	font-weight: 600;
   font-size: 16px;
@@ -11,8 +9,4 @@
 
 .header__link:last-of-type {
 	margin-right: 0;
-}
-
-.header__link:hover {
-	color: #F7931E;
 }

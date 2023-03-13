@@ -1,8 +1,6 @@
 .header__number {
 	margin: 0;
 	padding: 0;
-	z-index: 1;
-	margin-bottom: 22px;
 	font-weight: 600;
   font-size: 16px;
   line-height: 20px;

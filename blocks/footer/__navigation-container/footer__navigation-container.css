@@ -1,0 +1,4 @@
+.footer__navigation-container {
+  display: flex;
+  flex-direction: column;
+}

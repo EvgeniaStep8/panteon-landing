@@ -3,6 +3,8 @@
 @import url('../blocks/page/page.css');
 /* Стили list */
 @import url('../blocks/list/list.css');
+/* Стили link */
+@import url('../blocks/link/link.css');
 /* Стили header */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
@@ -66,3 +68,13 @@
 @import url('../blocks/contacts/__item-text/contacts__item-text.css');
 @import url('../blocks/contacts/__text/contacts__text.css');
 @import url('../blocks/contacts/__icons/contacts__icons.css');
+/* Стили footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__navigation/footer__navigation.css');
+@import url('../blocks/footer/__navigation-container/footer__navigation-container.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__links-container/footer__links-container.css');
+@import url('../blocks/footer/__icon/footer__icon.css');
